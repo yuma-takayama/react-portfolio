@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PROJECTS } from "../constants";
+import { BASE_URL } from "../constants"; // 追加
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(PROJECTS[1]);
@@ -43,7 +44,7 @@ const Portfolio = () => {
           {/* プロジェクト詳細 */}
           <div className="w-full col-span-2">
             <img
-              src={selectedProject.img}
+              src={BASE_URL + selectedProject.img} // 追加
               alt={selectedProject.title}
               className="rounded-t-xl border border-stone-400 border-b-0 h-[380px] w-full object-cover"
             />

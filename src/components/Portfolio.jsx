@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { PROJECTS } from "../constants";
-import { BASE_URL } from "../constants"; // 追加
+import { PROJECTS, BASE_URL } from "../constants"; // 追加
 
 const Portfolio = () => {
   const [selectedProject, setSelectedProject] = useState(PROJECTS[1]);

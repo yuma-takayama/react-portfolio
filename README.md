@@ -1,8 +1,59 @@
-# React + Vite
+![ポートフォリオサイト](https://github.com/user-attachments/assets/b78c2527-683e-49ac-b9d2-c02c67e4da0e)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ポートフォリオサイト
 
-Currently, two official plugins are available:
+## 概要
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+このプロジェクトでは、シンプルなポートフォリオサイトを構築します。
+React 完全初心者でも問題なく作成できる内容になっているので、
+学び始めの第一歩に、おすすめです。
+
+## 学習目標
+
+Web サイトのマークアップを中心に、React の基本的な概念を確認してください。
+
+- コンポーネント
+- JSX 記法
+- props と State
+- 条件付きレンダリング
+- リストとキー
+- children としてコンポーネントを埋め込む
+
+### 推奨技術
+
+このプロジェクトの難易度と趣旨を踏まえて、以下の使用をお勧めします。
+
+- vite を用いた React 環境構築
+- Tailwind CSS を用いたスタイリング
+- GitHub Pages へのデプロイ
+
+---
+
+## 🎯 お題
+
+- 「ユーザーストーリー」を全て満たす、アプリを構築してください。
+- 必要に応じて、スクリーンショットやデモサイトの URL を、参照してください。
+- なお、スタイルは、あなた自身で独自にカスタマイズすることが可能です。
+- サイト内の画像、テキストは、あなた自身で独自にカスタマイズすることが可能です。
+
+### 構成
+
+このサイトは、以下の 6 つの要素・セクションで、構成されています：
+
+1. ヘッダー
+2. Hero セクション
+3. About セクション
+4. Portfolio セクション
+5. Social セクション
+6. フッター
+
+## ユーザーストーリー
+
+- [ ] ヘッダーにサイトのタイトルと、各セクションへのナビゲーションリンクが表示されている
+- [ ] Hero セクションに、「見出し・サイトに関する簡潔な紹介文・GitHub へのリンク」が表示されている
+- [ ] About セクションに、画像・自己紹介文が表示されている
+- [ ] Portfolio セクションに、選択可能な、プロジェクトの一覧が表示されている
+- [ ] Portfolio セクションでは、選択したプロジェクトのスクリーンショットと、簡潔な説明、GitHub へのリンクが表示されている
+- [ ] Social セクションに、各媒体へ遷移できる、アイコン付きのボタンが表示されている
+- [ ] フッターに、コピーライトが表示されている
+- [ ] アプリケーションがデプロイされており、誰でもアクセス可能である。
